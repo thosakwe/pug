@@ -1,0 +1,11 @@
+name: pug
+version: 0.0.0
+author: Tobe O <thosakwe@gmail.com>
+description:
+environment:
+  sdk: ">=1.19.0"
+dependencies:
+  compiler_tools: ^1.0.0-dev
+dev_dependencies:
+  html: ^0.13.0
+  test: ^0.12.0
