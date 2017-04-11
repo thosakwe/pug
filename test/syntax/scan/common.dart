@@ -31,7 +31,7 @@ class _EqualsScanned extends Matcher {
     print('Tokens: ');
 
     for (var token in _tokens) {
-      print('  "${token.text.replaceAll('\n', '\\n')}" => ${token.type}');
+      print('  "${token.text.replaceAll('\n', '\\n ')}" => ${token.type}');
     }
 
     return super.describeMismatch(item, mismatchDescription, matchState, verbose);
